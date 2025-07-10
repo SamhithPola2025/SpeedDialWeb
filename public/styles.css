@@ -1,0 +1,28 @@
+h1, h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+.gray-box {
+    display: inline-block;       /* box hugs content width */
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 15px 20px;
+    border-radius: 6px;
+    text-align: left;            /* keeps text aligned nicely */
+    margin: 20px auto;           /* vertical spacing + horizontal centering */
+  }
+  
+  /* center the gray box container */
+  body {
+    text-align: center;    
+    background-color: blanchedalmond;      /* centers inline-block children horizontally */
+  }
+  
